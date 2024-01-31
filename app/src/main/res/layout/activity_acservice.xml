@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/acservice" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/plumberService1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="0.5"
+                    android:text="Deep clean AC service (window)"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/plumber1"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textSize="22sp"
+                    android:clickable="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_style"
+                    android:layout_marginRight="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/plumberPrice1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="499"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="18dp"/>
+                <TextView
+                    android:id="@+id/plumberTime1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="45 min"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="18dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Get 2x deeper dust removal with unique foam jet technique"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="14dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Recommended for ACs serviced more than 6 months"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View details"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="#334ff4"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/plumberService2"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text="Deep clean AC service (split)"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/plumber2"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_style"
+                    android:layout_marginRight="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/plumberPrice2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="599"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="18dp"/>
+                <TextView
+                    android:id="@+id/plumberTime2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="45 mins"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="18dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Repair or replacement of one waste pipe"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="14dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View details"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="#334ff4"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/plumberService3"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text="Repair AC (window/ split)"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/plumber3"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_style"
+                    android:layout_marginRight="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/plumberPrice3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="299"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="18dp"/>
+                <TextView
+                    android:id="@+id/plumberTime3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="1 hr 30 min"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="18dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accurate diagnosis and same day resolution after detailed"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="14dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visit charges of 299 will be adjusted in the final bill"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="8dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View details"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="#334ff4"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/plumberService4"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text="installation (window/ split)"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/plumber4"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_style"
+                    android:layout_marginRight="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/plumberPrice4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="499"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="18dp"/>
+                <TextView
+                    android:id="@+id/plumberTime4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="60 min"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="18dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Include free gas checking and driling, if needed"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="14dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View details"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="#334ff4"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/plumberService5"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text="Uninstallation (window/ split)"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/plumber5"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_style"
+                    android:layout_marginRight="18dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/plumberPrice5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="399"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="18dp"/>
+                <TextView
+                    android:id="@+id/plumberTime5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="60 min"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_marginRight="18dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="includes uninstallation for your ac unit"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="14dp"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View details"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="22sp"
+                    android:layout_marginTop="12dp"
+                    android:textColor="#334ff4"
+                    android:layout_marginBottom="70dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/help"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:src="@drawable/help" />
+
+        <ImageView
+            android:id="@+id/sevice"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:src="@drawable/service" />
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:src="@drawable/share" />
+
+        <ImageView
+            android:id="@+id/account"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:src="@drawable/account" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+

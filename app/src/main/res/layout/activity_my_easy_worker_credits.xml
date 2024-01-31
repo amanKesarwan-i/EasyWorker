@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDED"
+    app:layout_insetEdge="none"
+    tools:context=".FAQIntent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:divider="@null"
+        android:dividerPadding="0dp"
+
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="@string/how_do_i_use_my_credit"
+            android:textColor="#FF272626"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+
+            android:fontFamily="@font/actor"
+            android:text="@string/how_do_i_use_my_credit_ans1"
+            android:textColor="#FF272626"
+
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+
+            android:fontFamily="@font/actor"
+            android:text="@string/how_do_i_use_my_credit_ans2"
+            android:textColor="#FF272626"
+
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+
+            android:fontFamily="@font/actor"
+            android:text="@string/how_do_i_use_my_credit_ans3"
+            android:textColor="#FF272626"
+
+            android:textSize="20sp"
+
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/change_phone_no"
+
+
+            android:padding="4dp"
+            android:text="@string/go_to_wallet"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

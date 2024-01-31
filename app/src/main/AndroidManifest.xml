@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easyworker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EasyWorker">
+        <activity
+            android:name=".Final"
+            android:exported="false" />
+        <activity
+            android:name=".MechanicService"
+            android:exported="false"
+            android:label="Mechanic Services"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ACService"
+            android:exported="false"
+            android:label="AC Services"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".CarpanterService"
+            android:exported="false"
+            android:label="Carpanter Services"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MaidService"
+            android:exported="false"
+            android:label="Maid Services"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".EletricianService"
+            android:exported="false"
+            android:label="Eletrician"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".PlumberService"
+            android:exported="false"
+            android:label="Plumber"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Starter"
+            android:exported="false"
+            android:label="Login"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".Account" />
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:label="Login / Signup"
+            android:parentActivityName=".Account">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".Account" />
+        </activity>
+        <activity
+            android:name=".CanIPauseMyMembership"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerPlusMember">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerPlusMember" />
+        </activity>
+        <activity
+            android:name=".HowDoICancelMyMembershipPlan"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerPlusMember">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerPlusMember" />
+        </activity>
+        <activity
+            android:name=".IShareMembershipWithFamily"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerPlusMember">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerPlusMember" />
+        </activity>
+        <activity
+            android:name=".IPayMembershipWithCash"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerPlusMember">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerPlusMember" />
+        </activity>
+        <activity
+            android:name=".IBuyTheMembership"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerPlusMember">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerPlusMember" />
+        </activity>
+        <activity
+            android:name=".MoneyBackGurantee"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerPlusMember">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerPlusMember" />
+        </activity>
+        <activity
+            android:name=".CanGetByUsingPlus"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerPlusMember">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerPlusMember" />
+        </activity>
+        <activity
+            android:name=".BenefitsOfTheMembership"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerPlusMember">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerPlusMember" />
+        </activity>
+        <activity
+            android:name=".ProfessionalsVaccinated"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerSafety">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerSafety" />
+        </activity>
+        <activity
+            android:name=".SafetyAndCovid"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".EasyWorkerSafety">
+            <meta-data
+                android:name="android.support.Parent_ACTIVITY"
+                android:value=".EasyWorkerSafety" />
+        </activity>
+        <activity
+            android:name=".ISeeMtSavedPaymentDetails"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".PaymentEasyWorkerCredits">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PaymentEasyWorkerCredits" />
+        </activity>
+        <activity
+            android:name=".RewardForReferral"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".PaymentEasyWorkerCredits">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PaymentEasyWorkerCredits" />
+        </activity>
+        <activity
+            android:name=".ReferralWork"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".PaymentEasyWorkerCredits">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PaymentEasyWorkerCredits" />
+        </activity>
+        <activity
+            android:name=".ValidityOfTheReward"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".PaymentEasyWorkerCredits">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PaymentEasyWorkerCredits" />
+        </activity>
+        <activity
+            android:name=".MyEasyWorkerCredits"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".PaymentEasyWorkerCredits">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PaymentEasyWorkerCredits" />
+        </activity>
+        <activity
+            android:name=".MyWalletBalance"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".PaymentEasyWorkerCredits">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PaymentEasyWorkerCredits" />
+        </activity>
+        <activity
+            android:name=".DoesEasyWorkerChangeAnyCancellationFees"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".GettingStartWithEasyWorker">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GettingStartWithEasyWorker" />
+        </activity>
+        <activity
+            android:name=".DoIHvaeToOrderTheminimumValueTo"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".GettingStartWithEasyWorker">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GettingStartWithEasyWorker" />
+        </activity>
+        <activity
+            android:name=".HowToBookMypreferredProgram"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".GettingStartWithEasyWorker">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GettingStartWithEasyWorker" />
+        </activity>
+        <activity
+            android:name=".CanIReBookTheSameProfessional"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".GettingStartWithEasyWorker">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GettingStartWithEasyWorker" />
+        </activity>
+        <activity
+            android:name=".HowtoPlaceBooking"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".GettingStartWithEasyWorker">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GettingStartWithEasyWorker" />
+        </activity>
+        <activity
+            android:name=".WhatIsEasyWorker"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".GettingStartWithEasyWorker">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GettingStartWithEasyWorker" />
+        </activity>
+        <activity
+            android:name=".SavedMyPaymentDetails"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".FaqAccount">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaqAccount" />
+        </activity>
+        <activity
+            android:name=".IWantToChangeMyEmailAddress"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".FaqAccount">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaqAccount" />
+        </activity>
+        <activity
+            android:name=".WhereCanCheckMySavedAddress"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".FaqAccount">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaqAccount" />
+        </activity>
+        <activity
+            android:name=".IwantToChangeMyPhoneNumber"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".FaqAccount">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FaqAccount" />
+        </activity>
+        <activity
+            android:name=".EasyWorkerSafety"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".FAQIntent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FAQIntent" />
+        </activity>
+        <activity
+            android:name=".EasyWorkerPlusMember"
+            android:exported="false"
+            android:label=""
+            android:parentActivityName=".FAQIntent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FAQIntent" />
+        </activity>
+        <activity
+            android:name=".PaymentEasyWorkerCredits"
+            android:exported="true"
+            android:label=""
+            android:parentActivityName=".FAQIntent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FAQIntent" />
+        </activity>
+        <activity
+            android:name=".GettingStartWithEasyWorker"
+            android:exported="true"
+            android:label=""
+            android:parentActivityName=".FAQIntent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FAQIntent" />
+        </activity>
+        <activity
+            android:name=".FaqAccount"
+            android:exported="true"
+            android:label=""
+            android:parentActivityName=".FAQIntent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FAQIntent" />
+        </activity>
+        <activity
+            android:name=".FAQIntent"
+            android:exported="true"
+            android:label="Help &amp; Support"
+            android:parentActivityName=".Help">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Help" />
+        </activity>
+        <activity
+            android:name=".Account"
+            android:exported="false"
+            android:label="Account"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Share"
+            android:exported="false"
+            android:label="Share"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Service"
+            android:exported="false"
+            android:label="Service"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Help"
+            android:exported="false"
+            android:label="Help"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
